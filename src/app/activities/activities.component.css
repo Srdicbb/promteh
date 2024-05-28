@@ -1,0 +1,37 @@
+.activities-page {
+    margin: 20px;
+  }
+  
+  .activities-page h2 {
+    margin-top: 20px;
+  }
+  
+  .activities-page p {
+    margin: 10px 0;
+  }
+  
+  .activities-page img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
