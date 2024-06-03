@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Under Construction</title>
+    <title>About</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <style>
@@ -27,29 +27,33 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 80vh;
+            min-height: 80vh;
             text-align: center;
+            padding: 20px;
         }
         .content .container {
             background-color: white;
-            padding: 40px;
+            padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
         }
         .content h1 {
-            font-size: 2.5em;
+            font-size: 2em;
             color: #386078;
             margin-bottom: 20px;
         }
         .content p {
-            font-size: 1.2em;
+            font-size: 1em;
             color: #5ba1c8;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
+            text-align: left;
         }
-        .content i {
-            font-size: 3em;
-            color: #5bc0de;
-            margin-bottom: 20px;
+        .content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
         }
         .footer {
             background-color: white;
@@ -76,15 +80,13 @@
             margin: 0;
         }
         @media (max-width: 768px) {
-            .image-container {
-                flex: 1 1 calc(50% - 20px);
-                max-width: calc(50% - 20px);
+            .footer {
+                flex-direction: column;
             }
         }
         @media (max-width: 480px) {
-            .image-container {
-                flex: 1 1 100%;
-                max-width: 100%;
+            .content {
+                padding: 20px 10px;
             }
         }
     </style>
@@ -101,7 +103,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
                     <li class="nav-item"><a class="nav-link" href="results.html">Results</a></li>
                     <li class="nav-item"><a class="nav-link" href="team.html">Research Team</a></li>
                 </ul>
@@ -111,9 +113,17 @@
 
     <div class="content">
         <div class="container">
-            <i class="fas fa-tools"></i>
-            <h1>About Page</h1>
-            <p>This page is under construction.</p>
+            <h1>About the Project</h1>
+            <p>The fast development of information technologies and rapid digital data growth require a new approach for ultrafast low-dissipative manipulation and storage of information. Magnetoelectric and multiferroic materials, where the magnetic degree of freedom can be controlled by electric field and vice versa, are very suitable for data storage media, multi-state memories, and optoelectronic devices.</p>
+            <p>Manipulation of both the charge and magnetic order of these materials by light is very attractive as it could overcome the disadvantages of existing systems that have limited speed and an enormous rise in energy consumption. For this reason, LaMnO3 (LMO) based thin film heterostructures with controllable physical properties are promising functional elements not only for data technology devices, but also for other advanced nano-systems.</p>
+            <p>The main ideas of the proposed Project are: i) to develop novel concept for fabrication of single- and multi-doped LMO thin films and bilayer heterostructures and ii) to confirm that controlled manipulation of physical properties of the fabricated LMO-based thin films and heterostructures can be performed by light. Recognition of a new vision about importance of optically induced magnetoelectric effects and increase of fundamental knowledge in this field is crucial.</p>
+            <p>Project activities will be organized as follows: i) to develop optimal conditions for deposition of high-quality doped LMO epitaxial thin films (&lt;50 nm) by spin-coating of a polymer/metal aqueous solution, ii) to design functional bilayer heterostructures by combination of epitaxial magnetic LMO-based and ferroelectric titanate thin layers, iii) to demonstrate that controlled manipulation of physical properties of the LMO-based films and heterostructures is possible by light stimuli and iv) to fabricate prototype components. These objectives will be accomplished by combining compatible experience, experimental skills and resources of all research team members.</p>
+            <p><strong>Work Packages:</strong></p>
+            <p>WP1: Deposition of doped LMO thin films</p>
+            <p>WP2: Fabrication of heterostructures and prototype components</p>
+            <p>WP3: Manipulation of physical properties by light stimuli</p>
+            <p>WP4: Coordination and project management</p>
+            <img src="assets/project-image.jpg">
         </div>
     </div>
 
