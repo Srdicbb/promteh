@@ -1,0 +1,10 @@
+.navbar {
+    background-color: white;
+  }
+  .navbar .logo img {
+    height: 40px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: #386078;
+    font-size: 1.1em;
+  }

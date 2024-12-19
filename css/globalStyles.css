@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2e9;
+}
+
+.content p {
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #5ba1c8;
+}
